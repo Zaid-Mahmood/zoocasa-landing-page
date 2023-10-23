@@ -1,0 +1,114 @@
+.navbar{
+background-color: rgba(24, 27, 30, .1)!important;
+}
+
+.navbar-brand{
+    color: aliceblue!important;
+
+}
+.nav-link{
+    color: aliceblue!important;
+}
+.menu{
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 8px 2px;
+}
+h1{
+    font-size: 2.125em;
+    padding-top: 4em;
+    font-family: Frank Ruhl Libre,Times New Roman,Times,serif;
+}
+.searchBar{
+    position: relative; 
+    top : 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 50%;
+}
+
+
+input[type = "text"]{
+    border: none;
+    padding: 12px 16px;
+    width: 100%;
+}
+.searchBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #A4814F;
+    color : white;
+    margin:3px 15px;
+    font-size: 14px;
+    border: none;
+}
+.inputTag::placeholder{
+    font-size: small;
+}
+
+.bgImg{
+background-image: url(../images/zoocasa2.png);
+background-size: cover;
+background-size: 100% 100%; 
+background-repeat: no-repeat;
+}
+ .navbar-toggler-icon{
+   background-image : url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath  stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+width: 20px;
+height: 20px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active
+ {
+    outline: none;
+    box-shadow: none;
+}
+.btn-close{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+    opacity: 1;
+}
+
+@media only screen and (max-width: 991px){
+    .nav1{
+       margin: 0%;
+       max-width: 100%;
+    }
+   .zoocasaLogo {
+        margin: 0%;
+    }
+    .largeScreens{
+        display: none;
+    }    
+    .offcanvas{
+        padding: 1.5em 2em;
+        transition: all 0.3s ease-in-out;
+    }
+    .searchBar{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (min-width: 992px){
+   .smallScreens{
+display: none;
+        }
+        .iconSmallScreens{
+            display: none;
+        }
+ }
+ @media screen and (min-width: 200px) and (max-width: 330px){
+.zoocasaLogo{
+    width: 8em;
+    height: 8em;
+}
+.allMain{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+ }

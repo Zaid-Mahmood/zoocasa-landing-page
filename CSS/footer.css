@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.footer{
+    background-color:#181B1E;
+}
+
+.leftParagraph p{
+font-size: 12px;
+letter-spacing: 0.5px;
+color:aliceblue;
+}
+.images{
+    box-sizing: border-box;
+}
+.images img{
+    width: 35%;
+    height: 35%;
+}
+
+.centerParagraph p{
+    font-size: 10px;
+color:aliceblue;
+}
+.iconsLast > img ,  .twitter{
+    color : black;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    margin: 0  0 0 8%;
+}
+.bbb{
+    width: 42px;
+    height: 69.5px;
+    margin-bottom: 10%;
+}
+.lastIcons{
+    font-size: 12px;
+}
+.lastIcons  svg{
+    color :white ;
+    border: none;
+    border-radius: none;
+    background-color: transparent;
+    width: 2em;
+    height: 2em;
+    box-sizing: border-box;
+    padding: 0 4px 0 4px;
+    /* margin: 0 8px; */
+}
+@media screen and (max-width: 992px){
+    .firstFooter{
+        display: none;
+    }
+    
+    .lastIcons  svg{
+        color :white ;
+        border: none;
+        border-radius: none;
+        background-color: transparent;
+        width: 1.5em;
+        height: 1.5em;
+        box-sizing: border-box;
+        padding: 0 4px 0 4px;
+    }
+    .lastIcons{
+        font-size: 15px;
+    }
+    .iconsLast > img ,  .twitter{
+        color : black;
+        border: 1px solid white;
+        border-radius: 50%;
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        margin: 0  0 0 15%;
+    }
+}
+@media screen and (min-width: 993px){
+    .secondFooter{
+        display: none;
+    }
+}
+@media screen and (min-width : 200px) and (max-width:290px){
+    .lastIcons > img , .twitter{
+        width: 1em;
+        height: 1em;   
+    }
+}

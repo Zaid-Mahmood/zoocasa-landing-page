@@ -1,0 +1,60 @@
+.card{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 1.625rem;
+    font-family:'Times New Roman', Times, serif;
+    color: #3A3033;
+}
+.outerBorder{
+    max-width: 35%;
+}
+.location{
+    font-size: 0.75rem;
+}
+.outerBorder{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.previous{
+   background-color: #24221B;
+   transition: all .4s ease;
+   width: 3.0rem;
+   height: 3.0rem;
+}
+.circles svg{
+    margin: 0 4px;
+    cursor: pointer;
+}
+.sold{
+    background-color: #DF6541;
+    border-color: #DF6541!important;
+}
+.blur{ 
+   filter: blur(5px);
+}
+
+.featuredCity{
+    font-size: 1em;
+}
+.outerBorder{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 767px){
+    .outerBorder{
+         margin: auto;
+         max-width: 100%;
+         margin-bottom: 12px;
+    }
+}
+    @media only screen and (min-width: 768px){
+        .flex{
+           display: flex;
+           justify-content: space-between;
+           gap: 12px;
+        }
+} 

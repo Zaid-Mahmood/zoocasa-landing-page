@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.625em;
+}
+
+.stars {
+    color: #b38e57;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+ul button{
+    border: none;
+    background-color: #e5e5e5;
+    margin: 4px;
+    padding: 4px;
+}
+.teamBtn {
+    position:absolute;
+    top:70%;
+     bottom:10%;
+      right:0;
+       left:58%;
+       width: 40%;
+    border: 1px solid #b38e57;
+    border-radius: 3px;
+    background-color: #b38e57;
+    border-color: #b38e57;
+    box-sizing: border-box;
+}
+
+img {
+   max-width: 100%;
+    height: auto;
+}
+.listItems li{
+    display: block;
+}
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+   
+  }
+  th h5{
+    vertical-align:baseline;
+    margin-bottom: 0px;
+  }
+td{
+    padding: 5px 0px;
+}
+.dropdown-menu{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+.dropdown-menu li{
+    padding: 0em 3em;
+}
+#btnUp{
+    display: none;
+}
+ @media screen and (max-width: 1344px){
+    .teamBtn{
+        font-size: 75%;
+    }
+}
+.outerBorder{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1060px){
+    .teamBtn{
+        font-size: 60%;
+    }
+}
+/* @media screen and (min-width: 992px) and (max-width: 1100px){
+    .change{
+        display: grid;
+        grid-template-columns:repeat(1fr, 1fr)!important ;
+        grid-auto-rows: auto;
+    }
+} */
+/*
+@media screen and (max-width: 991px){
+    .teamBtn{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 767px){
+    .teamBtn{
+        font-size: 100%;
+    }
+}
+*/
+@media screen and (max-width: 360px){
+    .teamBtn{
+        font-size: 50%;
+    }
+} 
+@media screen and (max-width: 768px){
+    #citiesSearch{
+        display: none;
+    }
+} 
+@media screen and (min-width: 769px){
+    #smallCitiesSearch{
+        display: none!important;
+    }
+    .citiesLines{
+        display: none;
+    }
+} 
+.feedback{
+    transform: rotate(270deg);
+    z-index: 2;
+    left: -2em;
+    right: auto;
+    border: 1px solid #b38e57;
+    border-radius: 4px;
+    background-color: #b38e57;
+    top: 75%;
+    padding: 1em;
+    font-size: small;
+}
+.main{
+    width: 91%;
+}
+/* 
+.iconText p{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+} */
+.horizontalBarIcons td{
+    text-align: center;
+}
+
+@media screen and (min-width:769px){
+    .horizontalBar{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 768px){
+    .feedback{
+        transform : rotate(90deg);
+        right: -2.5em;
+        height: 4em;
+        width: 6em;
+        top:50%;
+        z-index: 0;
+        bottom: 0;
+        left: auto;
+        font-size: x-small;
+border: 1px solid #b38e57;
+padding: 2em 0em;
+border-radius: 4px;
+font-size: x-small;
+    background-color: #b38e57;
+       }
+}
+.dropDownIcon svg{
+    width: 2.5em;
+    height: 2.5em;
+    transition:  1s ease-in-out;
+}
+
+.dropUpIcon svg{
+    width: 2.5em;
+    height: 2.5em;
+    transform : rotate(180deg)
+    
+}
+@media screen and (min-width:769px){
+    .mainCities{
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+
+  <svg width="20" height="20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <linearGradient id="g">
+        <stop stop-color="#f6f7f9" offset="0%" />
+        <stop stop-color="#e9ebee" offset="20%" />
+        <stop stop-color="#f6f7f9" offset="40%" />
+        <stop stop-color="#f6f7f9" offset="100%" />
+      </linearGradient>
+    </defs>
+    <rect width="20" height="20" fill="#f6f7f9" />
+    <rect id="r" width="20" height="20" fill="url(#g)" />
+    <animate xlink:href="#r" attributeName="x" from="-20" to="20" dur="1s" repeatCount="indefinite" />
+  </svg>

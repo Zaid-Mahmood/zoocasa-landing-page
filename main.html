@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Font awsome icons-->
+    <script src="https://kit.fontawesome.com/ca08956ad6.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+    <!-- Cards -->
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 mainBody">
+                    <div class="flex">
+                        <div class="outerBorder border border-1 p-4">
+                            <div class="upperText d-flex justify-content-between align-items-center">
+                                <h2 class="mb-0">Homes for Sale</h2>
+                                <button class="btn-dark bg-white border border-1 border-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-map" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" />
+                                    </svg>
+                                    Map View
+                                </button>
+                            </div>
+                            <p class="location">Current Location: Toronto,ON</p>
+                            <div class="card">
+
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./images/1.webp" class=" d-block w-100" alt="...">
+                                            <div
+                                                class="card-img-overlay d-flex justify-content-between align-items-end">
+                                                <p
+                                                    class="text-white border rounded-pill bg-primary border-primary px-2 mb-0">
+                                                    <small> For Sale</small>
+                                                </p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="29"
+                                                    viewBox="0 0 31 29" class="style_favourite__lOMH9">
+                                                    <g fill="#FFFFFF" fill-rule="evenodd" stroke="none"
+                                                        stroke-width="1">
+                                                        <g fill="#FFFFFFF" stroke="#F6F4F4" stroke-width="1.5"
+                                                            transform="translate(-805 -2924)">
+                                                            <g transform="translate(477 2712)">
+                                                                <g>
+                                                                    <g>
+                                                                        <path
+                                                                            d="M350.368 213c4.19 0 7.206 3.627 7.586 7.95 0 0 .204 1.073-.246 3.005-.614 2.63-2.056 4.968-4.001 6.751L343.413 240l-10.12-9.294c-1.945-1.784-3.387-4.12-4-6.752-.451-1.931-.247-3.005-.247-3.005.38-4.322 3.397-7.949 7.586-7.949 3.11 0 5.61 1.962 6.781 4.77 1.171-2.808 3.844-4.77 6.955-4.77z">
+                                                                        </path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="..." class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="..." class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="prev">
+                                            <span
+                                                class="previous carousel-control-prev-icon border rounded-circle border-white"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="next">
+                                            <span
+                                                class="previous carousel-control-next-icon border rounded-circle border-white"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="timePrice d-flex justify-content-between align-items-center">
+                                            <h3 class="card-title">$1,399,900</h3>
+                                            <p><small> 1 Hour</small></p>
+                                        </div>
+                                        <p class="card-text">21 Placentia Blvd</p>
+                                        <div class="Icons">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14"
+                                                viewBox="0 0 19 14" class="style_icon__DODoP">
+                                                <path fill="#191B1E" fill-rule="evenodd"
+                                                    d="M16.875 9.918H5.625v-3.5H15.75c.621 0 1.125.523 1.125 1.164zm-15.75 0H4.5v-3.5H1.125zM2.25 4.082H4.5c.621 0 1.125.523 1.125 1.168h-4.5c0-.645.504-1.168 1.125-1.168zm13.5 1.168h-9c0-1.285-1.008-2.332-2.25-2.332H2.25c-.41 0-.793.113-1.125.312V.582A.575.575 0 00.562 0 .572.572 0 000 .582v12.836c0 .32.25.582.563.582a.575.575 0 00.562-.582v-2.336h15.75v2.336c0 .32.25.582.563.582a.575.575 0 00.562-.582V7.582c0-1.285-1.008-2.332-2.25-2.332zm0 0">
+                                                </path>
+                                            </svg>
+                                            <small class="me-2">2 Bed</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                class="style_icon__DODoP">
+                                                <g transform="matrix(0.8000001 0 0 0.8000001 0 0)">
+                                                    <path transform="matrix(1 0 0 1 0 0)"
+                                                        d="M18.5976 8.921177L16.3296 8.921177L16.3296 2.625663C 16.3296 -0.1435266 12.5922 -1.018785 11.35682 1.451822L11.35682 1.451822L10.36139 3.442597C 10.1747 3.816023 10.32601 4.270114 10.69948 4.456846C 11.07298 4.64354 11.52703 4.492189 11.71377 4.118763L11.71377 4.118763L12.70919 2.127989C 13.23314 1.080059 14.8176 1.449781 14.8176 2.625663L14.8176 2.625663L14.8176 8.921177L0.7559999 8.921177C 0.3384612 8.921177 6.377121E-13 9.259639 6.377121E-13 9.677139L6.377121E-13 9.677139L6.377121E-13 12.66606C 6.377121E-13 15.15198 1.748212 17.23699 4.079754 17.75712L4.079754 17.75712L3.834658 18.27312C 3.655524 18.65025 3.816023 19.10117 4.193154 19.2803C 4.568735 19.45876 5.020558 19.30041 5.200372 18.92181L5.200372 18.92181L5.694229 17.8822L13.65941 17.8822L14.15326 18.92181C 14.33259 19.29939 14.78373 19.45925 15.16048 19.2803C 15.53765 19.10117 15.69815 18.65022 15.51898 18.27312L15.51898 18.27312L15.27388 17.75712C 17.60539 17.23695 19.3536 15.15198 19.3536 12.66606L19.3536 12.66606L19.3536 9.677139C 19.3536 9.259639 19.01514 8.921177 18.5976 8.921177zM17.8416 12.66606C 17.8416 14.70858 16.1798 16.37027 14.1372 16.37027L14.1372 16.37027L5.2164 16.37027C 3.173801 16.37027 1.512 14.70858 1.512 12.66606L1.512 12.66606L1.512 10.43314L17.8416 10.43314L17.8416 12.66606z"
+                                                        stroke="none" fill="#191B1E"></path>
+                                                </g>
+                                            </svg><small class="me-2"> 1 Bath </small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                class="style_icon__DODoP">
+                                                <g transform="matrix(0.7619048 0 0 0.7619048 0 0)">
+                                                    <path transform="matrix(1 0 0 1 0 0)"
+                                                        d="M20.05313 -1.776357E-15L6.46875 -1.776357E-15C 6.111351 -1.776357E-15 5.821875 0.2898 5.821875 0.646875L5.821875 0.646875L5.821875 1.617188C 5.821875 1.974262 6.111351 2.264062 6.46875 2.264062C 6.825825 2.264062 7.115625 1.974262 7.115625 1.617188L7.115625 1.617188L7.115625 1.29375L14.55469 1.29375L14.55469 3.234375C 14.55469 3.59145 14.84416 3.88125 15.20156 3.88125C 15.55864 3.88125 15.84844 3.59145 15.84844 3.234375L15.84844 3.234375L15.84844 1.29375L19.40625 1.29375L19.40625 14.55469L15.84844 14.55469L15.84844 7.7625C 15.84844 7.405425 15.55864 7.115625 15.20156 7.115625C 14.84416 7.115625 14.55469 7.405425 14.55469 7.7625L14.55469 7.7625L14.55469 9.703125L13.26094 9.703125C 12.90354 9.703125 12.61406 9.992925 12.61406 10.35C 12.61406 10.70708 12.90354 10.99687 13.26094 10.99687L13.26094 10.99687L14.55469 10.99687L14.55469 19.40625L8.732812 19.40625L8.732812 10.99687L9.379687 10.99687C 9.736762 10.99687 10.02656 10.70708 10.02656 10.35C 10.02656 9.992925 9.736762 9.703125 9.379687 9.703125L9.379687 9.703125L6.792187 9.703125C 6.434789 9.703125 6.145312 9.992925 6.145312 10.35C 6.145312 10.70708 6.434789 10.99687 6.792187 10.99687L6.792187 10.99687L7.439062 10.99687L7.439062 19.40625L1.29375 19.40625L1.29375 10.99687L2.5875 10.99687C 2.944575 10.99687 3.234375 10.70708 3.234375 10.35C 3.234375 9.992925 2.944575 9.703125 2.5875 9.703125L2.5875 9.703125L1.29375 9.703125L1.29375 7.7625L6.46875 7.7625C 6.825825 7.7625 7.115625 7.4727 7.115625 7.115625L7.115625 7.115625L7.115625 6.145312C 7.115625 5.788238 6.825825 5.498437 6.46875 5.498437C 6.111351 5.498437 5.821875 5.788238 5.821875 6.145312L5.821875 6.145312L5.821875 6.46875L0.646875 6.46875C 0.2894765 6.46875 -1.776357E-15 6.75855 -1.776357E-15 7.115625L-1.776357E-15 7.115625L-1.776357E-15 20.05313C -1.776357E-15 20.4102 0.2894765 20.7 0.646875 20.7L0.646875 20.7L15.20156 20.7C 15.55864 20.7 15.84844 20.4102 15.84844 20.05313L15.84844 20.05313L15.84844 15.84844L20.05313 15.84844C 20.4102 15.84844 20.7 15.55864 20.7 15.20156L20.7 15.20156L20.7 0.646875C 20.7 0.2898 20.4102 -1.776357E-15 20.05313 -1.776357E-15"
+                                                        stroke="none" fill="#191B1E"></path>
+                                                </g>
+                                            </svg> <small>700-799sqft</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <span class="circles"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"
+                                        viewBox="0 0 512 512"
+                                        fill="#b38e57"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 512 512"
+                                        fill="#CCCCCC"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 512 512"
+                                        fill="#CCCCCC"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg> <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="#CCCCCC"
+                                        viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="#CCCCCC"
+                                        viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 512 512"
+                                        fill="#CCCCCC"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg></span>
+                            </div>
+                        </div>
+
+
+                        <!-- Card 2 -->
+                        <div class="outerBorder border border-1 p-4">
+                            <div class="upperText d-flex justify-content-between align-items-center">
+                                <h2 class="mb-0">Sold Prices</h2>
+                                <button class="btn-dark bg-white border border-1 border-dark">
+                                    More Data
+                                </button>
+                            </div>
+                            <p class="location">Search Sold Data from 2003 - 2023</p>
+                            <div class="card">
+
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./images/1.webp" class=" d-block w-100" alt="...">
+                                            <div
+                                                class="card-img-overlay d-flex justify-content-between align-items-end">
+                                                <p class="sold text-white border rounded-pill px-2 mb-0"><small> <b>
+                                                            Sold </b></small></p>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="..." class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="..." class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="prev">
+                                            <span
+                                                class="previous carousel-control-prev-icon border rounded-circle border-white"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="next">
+                                            <span
+                                                class="previous carousel-control-next-icon border rounded-circle border-white"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="timePrice d-flex justify-content-between align-items-center">
+                                            <div class="">
+                                                <h3 class="card-title blur">$1,399,900</h3>
+                                            </div>
+                                            <p><small>3 Days</small></p>
+                                        </div>
+                                        <p class="card-text">Lee Center Dr</p>
+                                        <div class="Icons">
+                                            <p class="mb-0"> <small><a href="#">Log in</a> or <a href="#">signup</a> to
+                                                    view this listing</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <span class="circles"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"
+                                        viewBox="0 0 512 512"
+                                        fill="#b38e57"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 512 512"
+                                        fill="#CCCCCC"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 512 512"
+                                        fill="#CCCCCC"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg> <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="#CCCCCC"
+                                        viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="#CCCCCC"
+                                        viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 512 512"
+                                        fill="#CCCCCC"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z" />
+                                    </svg></span>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="outerBorder card3 border border-1 p-4">
+                            <div class="upperText d-flex justify-content-between align-items-center">
+                                <h2 class="mb-0">Market Insights</h2>
+                                <button class="btn-dark bg-white border border-1 border-dark">
+                                    More News
+                                </button>
+                            </div>
+                            <p class="location">Read the latest real estate news and reports</p>
+                            <div class="card mb-3 border-0">
+                                <div class="row g-0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                    <div class="col-6 p-0 px-0 pt-0 pb-4">
+                                        <img src="./images/2.webp" class="img-fluid sideImages"  alt="...">
+                                    </div>
+                                    <div class="col-6 pe-0">
+                                        <div class="card-body pt-0 px-0">
+                                            <h3 class="card-title featuredCity fs-6">Featured City of the Month: Markham</h3>
+                                            <p class="card-text"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="12" height="12" viewBox="0 0 31 29">
+                                                        <g fill="none" fill-rule="evenodd" stroke="none"
+                                                            stroke-width="1">
+                                                            <g fill="#000" fill-rule="nonzero"
+                                                                transform="translate(-716 -739)">
+                                                                <g transform="translate(69 370)">
+                                                                    <g transform="translate(647 369)">
+                                                                        <path
+                                                                            d="M29.52 2.41h-5.91V1.2a1.2 1.2 0 10-2.4 0v1.21H9.51V1.2a1.2 1.2 0 10-2.4 0v1.21H1.2A1.2 1.2 0 000 3.61v23.51a1.2 1.2 0 001.2 1.2h28.32a1.2 1.2 0 001.2-1.2V3.61a1.2 1.2 0 00-1.2-1.2zm-1.2 23.51H2.4V4.81h4.71v1.21a1.2 1.2 0 102.4 0V4.81h11.7v1.21a1.2 1.2 0 102.4 0V4.81h4.71v21.11z">
+                                                                        </path>
+                                                                        <circle cx="15.36" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="15.36" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="8.309" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="22.411" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="8.309" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="22.411" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span><small> Feb 14, 2023</small></p>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- pic 2 -->
+                                    <div class="col-6 px-0 pt-0 pb-4">
+                                        <img src="./images/3.webp" class="img-fluid sideImages"  alt="...">
+                                    </div>
+                                    <div class="col-6 pe-0">
+                                        <div class="card-body pt-0 px-0">
+                                            <h3 class="card-title featuredCity fs-6">Featured City of the Month: Markham</h3>
+                                            <p class="card-text"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="12" height="12" viewBox="0 0 31 29">
+                                                        <g fill="none" fill-rule="evenodd" stroke="none"
+                                                            stroke-width="1">
+                                                            <g fill="#000" fill-rule="nonzero"
+                                                                transform="translate(-716 -739)">
+                                                                <g transform="translate(69 370)">
+                                                                    <g transform="translate(647 369)">
+                                                                        <path
+                                                                            d="M29.52 2.41h-5.91V1.2a1.2 1.2 0 10-2.4 0v1.21H9.51V1.2a1.2 1.2 0 10-2.4 0v1.21H1.2A1.2 1.2 0 000 3.61v23.51a1.2 1.2 0 001.2 1.2h28.32a1.2 1.2 0 001.2-1.2V3.61a1.2 1.2 0 00-1.2-1.2zm-1.2 23.51H2.4V4.81h4.71v1.21a1.2 1.2 0 102.4 0V4.81h11.7v1.21a1.2 1.2 0 102.4 0V4.81h4.71v21.11z">
+                                                                        </path>
+                                                                        <circle cx="15.36" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="15.36" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="8.309" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="22.411" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="8.309" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="22.411" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span><small> Feb 14, 2023</small></p>
+                                        </div>
+                                    </div>
+
+                                    <!-- pic 3 -->
+                                    <div class="col-6 p-0">
+                                        <img src="./images/4.webp" class="img-fluid sideImages"  alt="...">
+                                    </div>
+                                    <div class="col-6 pe-0">
+                                        <div class="card-body pt-0 px-0">
+                                            <h3 class="card-title featuredCity fs-6">Featured City of the Month: Markham</h3>
+                                            <p class="card-text"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="12" height="12" viewBox="0 0 31 29">
+                                                        <g fill="none" fill-rule="evenodd" stroke="none"
+                                                            stroke-width="1">
+                                                            <g fill="#000" fill-rule="nonzero"
+                                                                transform="translate(-716 -739)">
+                                                                <g transform="translate(69 370)">
+                                                                    <g transform="translate(647 369)">
+                                                                        <path
+                                                                            d="M29.52 2.41h-5.91V1.2a1.2 1.2 0 10-2.4 0v1.21H9.51V1.2a1.2 1.2 0 10-2.4 0v1.21H1.2A1.2 1.2 0 000 3.61v23.51a1.2 1.2 0 001.2 1.2h28.32a1.2 1.2 0 001.2-1.2V3.61a1.2 1.2 0 00-1.2-1.2zm-1.2 23.51H2.4V4.81h4.71v1.21a1.2 1.2 0 102.4 0V4.81h11.7v1.21a1.2 1.2 0 102.4 0V4.81h4.71v21.11z">
+                                                                        </path>
+                                                                        <circle cx="15.36" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="15.36" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="8.309" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="22.411" cy="12.897" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="8.309" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                        <circle cx="22.411" cy="19.948" r="1.62">
+                                                                        </circle>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span><small> Feb 14, 2023</small></p>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-1"></div>
+
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Card end -->
+</body>
+
+</html>
